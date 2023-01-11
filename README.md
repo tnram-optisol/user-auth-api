@@ -10,17 +10,17 @@
 
 # Setup for the project
 
-    As the project database uses docker please install [Docker-Desktop](https://www.docker.com/products/docker-desktop/) from the secure site
+  -  As the project database uses docker please install [Docker-Desktop](https://www.docker.com/products/docker-desktop/) from the secure site
 
-    Once on successful installation
+  - Once on successful installation
 
-        To up the docker instance
+      To up the docker instance
 
-            docker-compose -f ./local/docker-compose.yml up
+          docker-compose -f ./local/docker-compose.yml up
 
-        To terminate or close the docker instance
+      To terminate or close the docker instance
 
-            docker-compose -f ./local/docker-compose.yml down
+          docker-compose -f ./local/docker-compose.yml down
 
 # To start the API
 
